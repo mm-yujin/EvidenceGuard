@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EAE4BC21-735C-4AB3-8E70-4BEBB68DCBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidenceGuard.Services", "EvidenceGuard\Services\EvidenceGuard.Services\EvidenceGuard.Services.csproj", "{9DD3177C-4352-474B-9940-5D7F09A1CD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidenceGuard.Services.Interfaces", "EvidenceGuard\Services\EvidenceGuard.Services.Interfaces\EvidenceGuard.Services.Interfaces.csproj", "{E63B4214-F71A-47B4-BFBE-3C08C8141324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidenceGuard", "EvidenceGuard\EvidenceGuard\EvidenceGuard.csproj", "{AE09BAFE-29F1-4FD2-B48D-0234C77A4D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvidenceGuard.Core", "EvidenceGuard\EvidenceGuard.Core\EvidenceGuard.Core.csproj", "{E6DBEADF-103F-4AFF-A55A-BBE3AC27E3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD3177C-4352-474B-9940-5D7F09A1CD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD3177C-4352-474B-9940-5D7F09A1CD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD3177C-4352-474B-9940-5D7F09A1CD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD3177C-4352-474B-9940-5D7F09A1CD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63B4214-F71A-47B4-BFBE-3C08C8141324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63B4214-F71A-47B4-BFBE-3C08C8141324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63B4214-F71A-47B4-BFBE-3C08C8141324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63B4214-F71A-47B4-BFBE-3C08C8141324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE09BAFE-29F1-4FD2-B48D-0234C77A4D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE09BAFE-29F1-4FD2-B48D-0234C77A4D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE09BAFE-29F1-4FD2-B48D-0234C77A4D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE09BAFE-29F1-4FD2-B48D-0234C77A4D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DBEADF-103F-4AFF-A55A-BBE3AC27E3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DBEADF-103F-4AFF-A55A-BBE3AC27E3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DBEADF-103F-4AFF-A55A-BBE3AC27E3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DBEADF-103F-4AFF-A55A-BBE3AC27E3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DD3177C-4352-474B-9940-5D7F09A1CD97} = {EAE4BC21-735C-4AB3-8E70-4BEBB68DCBF0}
+		{E63B4214-F71A-47B4-BFBE-3C08C8141324} = {EAE4BC21-735C-4AB3-8E70-4BEBB68DCBF0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="itext" Version="9.5.0" />
+	  <PackageReference Include="itext.bouncy-castle-adapter" Version="9.5.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\EvidenceGuard.Core\EvidenceGuard.Core.csproj" />
+		<ProjectReference Include="..\EvidenceGuard.Services.Interfaces\EvidenceGuard.Services.Interfaces.csproj" />
+	</ItemGroup>
+
+</Project>
