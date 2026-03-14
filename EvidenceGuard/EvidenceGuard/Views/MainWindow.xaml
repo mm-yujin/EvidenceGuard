@@ -101,6 +101,7 @@
                     <DataGridTextColumn Header="라인" Binding="{Binding LineNumber}" Width="50"/>
                     <DataGridTextColumn Header="유형" Binding="{Binding TypeName}" Width="80"/>
                     <DataGridTextColumn Header="데이터(키워드)" Binding="{Binding Keyword}" Width="*"/>
+                    <DataGridTextColumn Header="오프셋" Binding="{Binding Offset}" Width="80"/>
                     <DataGridTextColumn Header="시간" Binding="{Binding FoundTime, StringFormat=\{0:HH:mm:ss\}}" Width="80"/>
                     <DataGridCheckBoxColumn Header="무결성" Binding="{Binding IsIntegrityVerified}" Width="60"/>
                 </DataGrid.Columns>
